@@ -1,0 +1,17 @@
+# Requirements for Iris Species Decision Tree Classifier
+# Python version: 3.8+
+
+# Core Scientific Computing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Optional: For visualization (if you want to extend the script)
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Optional: For decision tree visualization
+# graphviz>=0.20.0
+# pydotplus>=2.0.2
