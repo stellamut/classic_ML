@@ -11,8 +11,7 @@ import pandas as pd
 
 
 
-from sklearn.tree import DecisionTreeClassifier, plot_tree
-from sklearn.metrics import accuracy_score, precision_score, recall_score, classification_report, confusion_matrix
+
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -564,6 +563,7 @@ This interactive application demonstrates machine learning classification using 
 - Matplotlib/Seaborn
 
 """)
+
 
 
 
