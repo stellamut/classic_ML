@@ -8,7 +8,7 @@ using a Decision Tree classifier with real-time visualizations.
 import streamlit as st
 import numpy as np
 import pandas as pd
-import seaborn as sns
+
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, plot_tree
@@ -564,3 +564,4 @@ This interactive application demonstrates machine learning classification using 
 - Matplotlib/Seaborn
 
 """)
+
