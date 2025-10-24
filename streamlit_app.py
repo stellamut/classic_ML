@@ -92,8 +92,7 @@ def train_model(max_depth, test_size):
     
     return model, X_train, X_test, y_train, y_test, y_train_pred, y_test_pred, iris
 
-# Load data
-df, iris = load_data()
+
 
 # ============================================================================
 # Sidebar - Configuration
@@ -267,7 +266,7 @@ elif page == "📈 Data Explorer":
             ax.set_xlabel(feature1, fontsize=12, fontweight='bold')
             ax.set_ylabel('Frequency', fontsize=12, fontweight='bold')
             ax.set_title(f'Distribution of {feature1}', fontsize=14, fontweight='bold')
-            ax.legend()
+            
             ax.grid(alpha=0.3)
             st.pyplot(fig)
             plt.close()
@@ -563,6 +562,7 @@ This interactive application demonstrates machine learning classification using 
 - Matplotlib/Seaborn
 
 """)
+
 
 
 
